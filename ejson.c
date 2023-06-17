@@ -1,6 +1,7 @@
 /******************************************************************************
                 Light Weight json parser for embeddedd systems
                 Author: manumadandan@gmail.com
+                Version 1.0.0
 *******************************************************************************/
 
 #include "ejson.h"
