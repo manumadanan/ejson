@@ -35,7 +35,7 @@ int ejson_get_attribute(char *json, char *key, char *res){
     
     //2-> leaving the empty character and the separator :
     for(int i=processing_index + 1;i<strlen(json)-1;i++){
-        if(json[i]!=' ' && json[i]!=':'){
+        if(json[i]!=' ' && json[i]!=':' && json[i]!='\t' && json[i]!='\n' && json[i]!='\r'){
             processing_index = i;
             break;
         }
